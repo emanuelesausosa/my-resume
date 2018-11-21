@@ -1,0 +1,36 @@
+Home
+about
+    brief-description
+    Nick-name
+    email
+    address
+    phone-number
+    nationality
+experince
+    title
+    start-date
+    end-date
+    brief-description
+    company-name
+    company-item
+skills
+    title
+    percentage
+    years-on
+    type // technical, language spoke
+education
+    major-title
+    brief-description
+    institution-name
+    start-year
+    end-year
+    level
+portfolio
+    project-name
+    url-web
+    brief-description
+    github-url
+social-media
+    name
+    icon
+    url-profile

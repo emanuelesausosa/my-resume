@@ -1,0 +1,18 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "emso07PRO",
+    "database": "my-resume",
+    "host": "127.0.0.1",
+    "port": "5432",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "emso07PRO",
+    "database": "my-resume",
+    "host": "127.0.0.1",
+    "port": "5432",
+    "dialect": "postgres"
+  }
+}
