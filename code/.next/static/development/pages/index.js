@@ -6215,7 +6215,7 @@ var Index = function Index() {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "img-responsive",
-    src: "images/logo.png",
+    src: "https://storage.googleapis.com/my-resume/images/logo.png",
     alt: "Image",
     __source: {
       fileName: _jsxFileName,

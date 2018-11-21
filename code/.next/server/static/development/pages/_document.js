@@ -197,7 +197,9 @@ function (_Document) {
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
         rel: "stylesheet",
-        href: "https://storage.googleapis.com/my-resume/css/bootstrap.min.css",
+        href: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css",
+        integrity: "sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u",
+        crossorigin: "anonymous",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 14
@@ -205,10 +207,10 @@ function (_Document) {
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
         rel: "stylesheet",
-        href: "https://storage.googleapis.com/my-resume/css/font-awesome.min.css",
+        href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 21
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -216,7 +218,7 @@ function (_Document) {
         href: "https://storage.googleapis.com/my-resume/css/magnific-popup.css",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 25
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -224,7 +226,7 @@ function (_Document) {
         href: "https://storage.googleapis.com/my-resume/css/animate.css",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26
+          lineNumber: 29
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -232,7 +234,7 @@ function (_Document) {
         href: "https://storage.googleapis.com/my-resume/css/main.css",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30
+          lineNumber: 34
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -240,16 +242,15 @@ function (_Document) {
         href: "https://storage.googleapis.com/my-resume/css/responsive.css",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34
+          lineNumber: 39
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
         href: "https://fonts.googleapis.com/css?family=Montserrat:400,700|Sacramento",
         rel: "stylesheet",
-        crossOrigin: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39
+          lineNumber: 44
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -257,7 +258,7 @@ function (_Document) {
         href: "https://storage.googleapis.com/my-resume/images/ico/favicon.ico",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45
+          lineNumber: 49
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -266,7 +267,7 @@ function (_Document) {
         href: "https://storage.googleapis.com/my-resume/images/ico/apple-touch-icon-144-precomposed.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49
+          lineNumber: 53
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -275,7 +276,7 @@ function (_Document) {
         href: "https://storage.googleapis.com/my-resume/images/ico/apple-touch-icon-114-precomposed.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 58
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -284,7 +285,7 @@ function (_Document) {
         href: "https://storage.googleapis.com/my-resume/images/ico/apple-touch-icon-72-precomposed.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59
+          lineNumber: 63
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -293,81 +294,81 @@ function (_Document) {
         href: "https://storage.googleapis.com/my-resume/images/ico/apple-touch-icon-57-precomposed.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64
+          lineNumber: 68
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("body", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71
+          lineNumber: 75
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_1__["Main"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 72
+          lineNumber: 76
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_1__["NextScript"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 73
+          lineNumber: 77
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
         src: "https://storage.googleapis.com/my-resume/js/jquery.min.js",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74
+          lineNumber: 78
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
         src: "https://storage.googleapis.com/my-resume/js/bootstrap.min.js",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75
+          lineNumber: 79
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
         src: "https://storage.googleapis.com/my-resume/js/waypoints.min.js",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76
+          lineNumber: 80
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
         src: "https://storage.googleapis.com/my-resume/js/counterup.min.js",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77
+          lineNumber: 81
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
         src: "https://storage.googleapis.com/my-resume/js/inview.min.js",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78
+          lineNumber: 82
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
         src: "https://storage.googleapis.com/my-resume/js/easypiechart.js",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79
+          lineNumber: 83
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
         src: "https://storage.googleapis.com/my-resume/js/magnific-popup.min.js",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 80
+          lineNumber: 84
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
         src: "https://storage.googleapis.com/my-resume/js/main.js",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 81
+          lineNumber: 85
         },
         __self: this
       }))));

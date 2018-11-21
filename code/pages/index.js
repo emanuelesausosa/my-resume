@@ -77,7 +77,7 @@ const Index = () => (
             <a href="index.html">
               <img
                 className="img-responsive"
-                src="images/logo.png"
+                src="https://storage.googleapis.com/my-resume/images/logo.png"
                 alt="Image"
               />
             </a>
