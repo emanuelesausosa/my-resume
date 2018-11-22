@@ -1,4 +1,5 @@
 import Head from "next/head";
+import About from "../components/about";
 
 const Index = () => (
   <div className="main-wrapper home-two">
@@ -116,66 +117,7 @@ const Index = () => (
       </div>
     </div>
 
-    <div id="about" className="about-section section-padding">
-      <div className="container">
-        <div className="row">
-          <div className="col-sm-4">
-            <div className="section-title">
-              <h1>Surzil Geek</h1>
-            </div>
-          </div>
-          <div className="col-sm-8">
-            <div className="about-info">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-              <div className="signature">
-                <h1>Surzil Geek</h1>
-              </div>
-            </div>
-            <address>
-              <p>
-                <span>Nick Name:</span> Endrue Surzil Geek
-              </p>
-              <p>
-                <span>Email:</span> itsme@surzilgeek.com
-              </p>
-              <p>
-                <span>Phone:</span> (123)-456-78910
-              </p>
-              <p>
-                <span>Date of Birth:</span> Jan 13, 1982
-              </p>
-              <p>
-                <span>Address:</span> 121 King Street, Melbourne Victoria, 1200
-                USA
-              </p>
-            </address>
-            <ul className="achievement">
-              <li className="achievement-info">
-                <span className="counter">35</span>
-                <h4>Projects completed</h4>
-              </li>
-              <li className="achievement-info">
-                <span className="counter counter1">19</span>
-                <h4>Winning Awards</h4>
-              </li>
-              <li className="achievement-info">
-                <span className="counter counter2">230</span>
-                <h4>Happy Clients</h4>
-              </li>
-              <li className="achievement-info">
-                <span className="counter counter3">19</span>
-                <h4>Running Projects</h4>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
+    <About />
   </div>
 );
 
