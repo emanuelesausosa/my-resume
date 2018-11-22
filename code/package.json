@@ -8,12 +8,17 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
+    "lint": "eslint components pages lib server",
+    "dev-express": "nodemon app.js --watch server --exec babel-node --presets=@babel/preset-env",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Emanuel Sosa",
   "license": "ISC",
   "dependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "morgan": "^1.9.1",

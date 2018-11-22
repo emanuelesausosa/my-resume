@@ -1,22 +1,29 @@
 const express = require("express");
 const logger = require("morgan");
 const bodyParser = require("body-parser");
+import next from "next";
 
-// init express app
-const app = express();
+const port = process.env.PORT || 8000;
+const ROOT_URL = process.env.ROOT_URL || `http://localhost:${port}`;
 
-//setup logger
-app.use(logger("dev"));
+const dev = process.env.NODE_ENV !== "production";
+const app = next({ dev });
+const handle = app.getRequestHandler();
 
-//setup body-parser config
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
+app.prepare().then(() => {
+  const server = express();
 
-// setup default catch out all request
-require("./server/routes/")(app);
-app.get("*", (req, res) => {
-  res.status(200).send({ message: "starting up" });
+  server.use(logger("dev"));
+
+  //setup body-parser config
+  server.use(bodyParser.json());
+  server.use(bodyParser.urlencoded({ extended: false }));
+
+  require("./server/routes/")(server);
+  server.get("*", (req, res) => handle(req, res));
+
+  server.listen(port, err => {
+    if (err) throw err;
+    console.log(`> Ready on ${ROOT_URL}`); // eslint-disable-line no-console
+  });
 });
-
-// module exports
-module.exports = app;

@@ -106,7 +106,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/document */ "next/document");
 /* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_document__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\learn\\my-resume\\code\\pages\\_document.js";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -144,232 +143,79 @@ function (_Document) {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("html", {
-        lang: "es",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 6
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_1__["Head"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 7
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
-        charSet: "utf-8",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 8
-        },
-        __self: this
+        lang: "es"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_1__["Head"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+        charSet: "utf-8"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
         httpEquiv: "X-UA-Compatible",
-        content: "IE=edge",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 9
-        },
-        __self: this
+        content: "IE=edge"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
         name: "viewport",
-        content: "width=device-width, initial-scale=1",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 10
-        },
-        __self: this
+        content: "width=device-width, initial-scale=1"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
         name: "author",
-        content: "Theme Region",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 11
-        },
-        __self: this
+        content: "Theme Region"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
         name: "description",
-        content: "",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 12
-        },
-        __self: this
+        content: ""
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
         rel: "stylesheet",
-        href: "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 14
-        },
-        __self: this
+        href: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css",
+        integrity: "sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u",
+        crossOrigin: "anonymous"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
         rel: "stylesheet",
-        href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 18
-        },
-        __self: this
+        href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
         rel: "stylesheet",
-        href: "https://storage.googleapis.com/my-resume/css/magnific-popup.css",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 22
-        },
-        __self: this
+        href: "https://storage.googleapis.com/my-resume/css/magnific-popup.css"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
         rel: "stylesheet",
-        href: "https://storage.googleapis.com/my-resume/css/animate.css",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 26
-        },
-        __self: this
+        href: "https://storage.googleapis.com/my-resume/css/animate.css"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
         rel: "stylesheet",
-        href: "https://storage.googleapis.com/my-resume/css/main.css",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 30
-        },
-        __self: this
+        href: "https://storage.googleapis.com/my-resume/css/main.css"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
         rel: "stylesheet",
-        href: "https://storage.googleapis.com/my-resume/css/responsive.css",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 34
-        },
-        __self: this
+        href: "https://storage.googleapis.com/my-resume/css/responsive.css"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
         href: "https://fonts.googleapis.com/css?family=Montserrat:400,700|Sacramento",
-        rel: "stylesheet",
-        crossOrigin: "",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 39
-        },
-        __self: this
+        rel: "stylesheet"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
         rel: "icon",
-        href: "https://storage.googleapis.com/my-resume/images/ico/favicon.ico",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 45
-        },
-        __self: this
+        href: "https://storage.googleapis.com/my-resume/images/ico/favicon.ico"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
         rel: "apple-touch-icon-precomposed",
         sizes: "144x144",
-        href: "https://storage.googleapis.com/my-resume/images/ico/apple-touch-icon-144-precomposed.png",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 49
-        },
-        __self: this
+        href: "https://storage.googleapis.com/my-resume/images/ico/apple-touch-icon-144-precomposed.png"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
         rel: "apple-touch-icon-precomposed",
         sizes: "114x114",
-        href: "https://storage.googleapis.com/my-resume/images/ico/apple-touch-icon-114-precomposed.png",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 54
-        },
-        __self: this
+        href: "https://storage.googleapis.com/my-resume/images/ico/apple-touch-icon-114-precomposed.png"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
         rel: "apple-touch-icon-precomposed",
         sizes: "72x72",
-        href: "https://storage.googleapis.com/my-resume/images/ico/apple-touch-icon-72-precomposed.png",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 59
-        },
-        __self: this
+        href: "https://storage.googleapis.com/my-resume/images/ico/apple-touch-icon-72-precomposed.png"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
         rel: "apple-touch-icon-precomposed",
         sizes: "57x57",
-        href: "https://storage.googleapis.com/my-resume/images/ico/apple-touch-icon-57-precomposed.png",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 64
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("body", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 71
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_1__["Main"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 72
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_1__["NextScript"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 73
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
-        src: "https://storage.googleapis.com/my-resume/js/jquery.min.js",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 74
-        },
-        __self: this
+        href: "https://storage.googleapis.com/my-resume/images/ico/apple-touch-icon-57-precomposed.png"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("body", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_1__["Main"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_1__["NextScript"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
+        src: "https://storage.googleapis.com/my-resume/js/jquery.min.js"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
-        src: "https://storage.googleapis.com/my-resume/js/bootstrap.min.js",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 75
-        },
-        __self: this
+        src: "https://storage.googleapis.com/my-resume/js/bootstrap.min.js"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
-        src: "https://storage.googleapis.com/my-resume/js/waypoints.min.js",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 76
-        },
-        __self: this
+        src: "https://storage.googleapis.com/my-resume/js/waypoints.min.js"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
-        src: "https://storage.googleapis.com/my-resume/js/counterup.min.js",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 77
-        },
-        __self: this
+        src: "https://storage.googleapis.com/my-resume/js/counterup.min.js"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
-        src: "https://storage.googleapis.com/my-resume/js/inview.min.js",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 78
-        },
-        __self: this
+        src: "https://storage.googleapis.com/my-resume/js/inview.min.js"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
-        src: "https://storage.googleapis.com/my-resume/js/easypiechart.js",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 79
-        },
-        __self: this
+        src: "https://storage.googleapis.com/my-resume/js/easypiechart.js"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
-        src: "https://storage.googleapis.com/my-resume/js/magnific-popup.min.js",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 80
-        },
-        __self: this
+        src: "https://storage.googleapis.com/my-resume/js/magnific-popup.min.js"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
-        src: "https://storage.googleapis.com/my-resume/js/main.js",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 81
-        },
-        __self: this
+        src: "https://storage.googleapis.com/my-resume/js/main.js"
       }))));
     }
   }]);
