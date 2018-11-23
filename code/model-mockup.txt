@@ -12,7 +12,9 @@ experince
     end-date
     brief-description
     company-name
-    company-item
+    company-item // rubro
+    company-logo,
+    current
 skills
     title
     percentage

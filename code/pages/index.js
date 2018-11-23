@@ -1,5 +1,6 @@
 import Head from "next/head";
 import About from "../components/about";
+import Skills from "../components/skills";
 
 const Index = () => (
   <div className="main-wrapper home-two">
@@ -118,6 +119,7 @@ const Index = () => (
     </div>
 
     <About />
+    <Skills />
   </div>
 );
 
