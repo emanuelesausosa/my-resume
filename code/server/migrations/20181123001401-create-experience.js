@@ -30,7 +30,7 @@ module.exports = {
         type: Sequelize.STRING
       },
       companyLogo: {
-        type: Sequelize.STRING
+        type: Sequelize.TEXT
       },
       current: { type: Sequelize.BOOLEAN, defaultValue: false },
       createdAt: {

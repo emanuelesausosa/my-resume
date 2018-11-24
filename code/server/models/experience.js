@@ -8,7 +8,7 @@ module.exports = (sequelize, DataTypes) => {
       briefDescription: { type: DataTypes.STRING, allowNull: false },
       companyName: { type: DataTypes.STRING, allowNull: false },
       companyItem: { type: DataTypes.STRING },
-      companyLogo: { type: DataTypes.STRING },
+      companyLogo: { type: DataTypes.TEXT },
       current: { type: DataTypes.BOOLEAN, defaultValue: false }
     },
     {}

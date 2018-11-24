@@ -3,6 +3,6 @@ const express = require("express");
 const router = express.Router();
 
 router.get("/", experienceController.list);
-router.get("/add", experienceController.create);
+router.post("/add", experienceController.create);
 
 module.exports = router;

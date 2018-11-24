@@ -5,7 +5,7 @@ module.exports = {
   list(req, res) {
     return Experience.all()
       .then(data => {
-        res.status().send(data);
+        res.status(200).send(data);
       })
       .catch(err => {
         res.status(400).send({ message: err });
@@ -15,16 +15,16 @@ module.exports = {
   create(req, res) {
     return Experience.create({
       title: req.body.title,
-      startDate: req.body.title,
-      endDate: req.body.title,
-      briefDescription: req.body.title,
-      companyName: req.body.title,
-      companyItem: req.body.title, // rubro
-      companyLogo: req.body.title,
-      current: req.body.title
+      startDate: req.body.startDate,
+      endDate: req.body.endDate,
+      briefDescription: req.body.briefDescription,
+      companyName: req.body.companyName,
+      companyItem: req.body.companyItem, // rubro
+      companyLogo: req.body.companyLogo,
+      current: req.body.current
     })
       .then(data => {
-        res.status().send(data);
+        res.status(200).send(data);
       })
       .catch(err => {
         res.status(400).send({ message: err });

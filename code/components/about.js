@@ -24,7 +24,6 @@ class About extends React.Component {
       getFirst()
         .then(about => {
           this.setState({ about });
-          console.log(this.state);
         })
         .catch(err => {
           console.log(err);
