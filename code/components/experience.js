@@ -23,7 +23,6 @@ class Experience extends React.Component {
       getAll()
         .then(experiences => {
           this.setState({ experiences });
-          console.log(this.state);
         })
         .catch(err => {
           console.log(err);

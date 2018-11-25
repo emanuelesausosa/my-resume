@@ -200,7 +200,7 @@ function (_Document) {
         rel: "apple-touch-icon-precomposed",
         sizes: "57x57",
         href: "https://storage.googleapis.com/my-resume/images/ico/apple-touch-icon-57-precomposed.png"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("body", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_1__["Main"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_1__["NextScript"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("body", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_1__["Main"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_1__["NextScript"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
         src: "https://storage.googleapis.com/my-resume/js/jquery.min.js"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
         src: "https://storage.googleapis.com/my-resume/js/bootstrap.min.js"
@@ -216,7 +216,7 @@ function (_Document) {
         src: "https://storage.googleapis.com/my-resume/js/magnific-popup.min.js"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
         src: "https://storage.googleapis.com/my-resume/js/main.js"
-      }))));
+      })));
     }
   }]);
 

@@ -74,16 +74,15 @@ class MyDocument extends Document {
 
         <body>
           <Main />
-          <NextScript>
-            <script src="https://storage.googleapis.com/my-resume/js/jquery.min.js" />
-            <script src="https://storage.googleapis.com/my-resume/js/bootstrap.min.js" />
-            <script src="https://storage.googleapis.com/my-resume/js/waypoints.min.js" />
-            <script src="https://storage.googleapis.com/my-resume/js/counterup.min.js" />
-            <script src="https://storage.googleapis.com/my-resume/js/inview.min.js" />
-            <script src="https://storage.googleapis.com/my-resume/js/easypiechart.js" />
-            <script src="https://storage.googleapis.com/my-resume/js/magnific-popup.min.js" />
-            <script src="https://storage.googleapis.com/my-resume/js/main.js" />
-          </NextScript>
+          <NextScript />
+          <script src="https://storage.googleapis.com/my-resume/js/jquery.min.js" />
+          <script src="https://storage.googleapis.com/my-resume/js/bootstrap.min.js" />
+          <script src="https://storage.googleapis.com/my-resume/js/waypoints.min.js" />
+          <script src="https://storage.googleapis.com/my-resume/js/counterup.min.js" />
+          <script src="https://storage.googleapis.com/my-resume/js/inview.min.js" />
+          <script src="https://storage.googleapis.com/my-resume/js/easypiechart.js" />
+          <script src="https://storage.googleapis.com/my-resume/js/magnific-popup.min.js" />
+          <script src="https://storage.googleapis.com/my-resume/js/main.js" />
         </body>
       </html>
     );
