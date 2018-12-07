@@ -9,7 +9,7 @@
   },
   "test": {
     "username": "postgres",
-    "password": "emso07PRO",
+    "password": "",
     "database": "my-resume",
     "host": "127.0.0.1",
     "port": "5432",
